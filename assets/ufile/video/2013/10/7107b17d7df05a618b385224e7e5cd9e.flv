@@ -1,0 +1,992 @@
+
+
+PHP Version 5.3.5
+
+
+System	Windows NT ADMIN-PC 6.1 build 7601 (Unknow Windows version Ultimate Edition Service Pack 1) i586
+Build Date	Jan 6 2011 17:50:45
+Compiler	MSVC6 (Visual C++ 6.0)
+Architecture	x86
+Configure Command	cscript /nologo configure.js "--enable-snapshot-build" "--disable-isapi" "--enable-debug-pack" "--disable-isapi" "--without-mssql" "--without-pdo-mssql" "--without-pi3web" "--with-pdo-oci=D:\php-sdk\oracle\instantclient10\sdk,shared" "--with-oci8=D:\php-sdk\oracle\instantclient10\sdk,shared" "--with-oci8-11g=D:\php-sdk\oracle\instantclient11\sdk,shared" "--enable-object-out-dir=../obj/" "--enable-com-dotnet" "--with-mcrypt=static"
+Server API	Apache 2.0 Handler
+Virtual Directory Support	enabled
+Configuration File (php.ini) Path	C:\Windows
+Loaded Configuration File	E:\xampp\php\php.ini
+Scan this dir for additional .ini files	(none)
+Additional .ini files parsed	(none)
+PHP API	20090626
+PHP Extension	20090626
+Zend Extension	220090626
+Zend Extension Build	API220090626,TS,VC6
+PHP Extension Build	API20090626,TS,VC6
+Debug Build	no
+Thread Safety	enabled
+Zend Memory Manager	enabled
+Zend Multibyte Support	disabled
+IPv6 Support	enabled
+Registered PHP Streams	php, file, glob, data, http, ftp, zip, compress.zlib, compress.bzip2, phar
+Registered Stream Socket Transports	tcp, udp
+Registered Stream Filters	convert.iconv.*, mcrypt.*, mdecrypt.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk, zlib.*, bzip2.*
+
+This program makes use of the Zend Scripting Language Engine:
+Zend Engine v2.3.0, Copyright (c) 1998-2010 Zend Technologies
+
+PHP Credits
+
+Configuration
+
+apache2handler
+
+Apache Version	Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8o PHP/5.3.4 mod_perl/2.0.4 Perl/v5.10.1
+Apache API Version	20051115
+Server Administrator	postmaster@localhost
+Hostname:Port	localhost:80
+Max Requests	Per Child: 0 - Keep Alive: on - Max Per Connection: 100
+Timeouts	Connection: 300 - Keep-Alive: 5
+Virtual Server	No
+Server Root	E:/xampp/apache
+Loaded Modules	core mod_win32 mpm_winnt http_core mod_so mod_actions mod_alias mod_asis mod_auth_basic mod_auth_digest mod_authn_default mod_authn_file mod_authz_default mod_authz_groupfile mod_authz_host mod_authz_user mod_autoindex mod_cgi mod_dav_lock mod_dir mod_env mod_headers mod_include mod_info mod_isapi mod_log_config mod_mime mod_negotiation mod_proxy mod_proxy_ajp mod_rewrite mod_setenvif mod_ssl mod_status mod_php5 mod_perl
+
+Directive	Local Value	Master Value
+engine	1	1
+last_modified	0	0
+xbithack	0	0
+
+Apache Environment
+
+Variable	Value
+MIBDIRS	E:/xampp/php/extras/mibs
+MYSQL_HOME	\xampp\mysql\bin
+OPENSSL_CONF	E:/xampp/apache/bin/openssl.cnf
+PHP_PEAR_SYSCONF_DIR	\xampp\php
+PHPRC	\xampp\php
+TMP	\xampp\tmp
+HTTP_HOST	127.0.0.1
+HTTP_CONNECTION	keep-alive
+CONTENT_LENGTH	8608
+HTTP_CACHE_CONTROL	max-age=0
+HTTP_ACCEPT	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+HTTP_ORIGIN	http://127.0.0.1
+HTTP_USER_AGENT	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22
+CONTENT_TYPE	multipart/form-data; boundary=----WebKitFormBoundaryn3I5n8dAqjHZpMk8
+HTTP_REFERER	http://127.0.0.1/phpfox_new/index.php
+HTTP_ACCEPT_ENCODING	gzip,deflate,sdch
+HTTP_ACCEPT_LANGUAGE	en-US,en;q=0.8
+HTTP_ACCEPT_CHARSET	ISO-8859-1,utf-8;q=0.7,*;q=0.3
+HTTP_COOKIE	PHPSESSID=1dfat5gajdo9jjdq5rsopnfm40; coreb9d8visit=1366467304; coreb9d8user_id=1; coreb9d8user_hash=42b5bc527e78dc9536878abe612e32b408b4babe244ebeda86; coreb9d8last_login=1366468528
+PATH	C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+SystemRoot	C:\Windows
+COMSPEC	C:\Windows\system32\cmd.exe
+PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+WINDIR	C:\Windows
+SERVER_SIGNATURE	<address>Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8o PHP/5.3.4 mod_perl/2.0.4 Perl/v5.10.1 Server at 127.0.0.1 Port 80</address>
+SERVER_SOFTWARE	Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8o PHP/5.3.4 mod_perl/2.0.4 Perl/v5.10.1
+SERVER_NAME	127.0.0.1
+SERVER_ADDR	127.0.0.1
+SERVER_PORT	80
+REMOTE_ADDR	127.0.0.1
+DOCUMENT_ROOT	E:/work
+SERVER_ADMIN	postmaster@localhost
+SCRIPT_FILENAME	E:/work/phpfox_new/index.php
+REMOTE_PORT	54158
+GATEWAY_INTERFACE	CGI/1.1
+SERVER_PROTOCOL	HTTP/1.1
+REQUEST_METHOD	POST
+QUERY_STRING	do=/user/photo/
+REQUEST_URI	/phpfox_new/index.php?do=/user/photo/
+SCRIPT_NAME	/phpfox_new/index.php
+
+HTTP Headers Information
+
+HTTP Request Headers
+HTTP Request	POST /phpfox_new/index.php?do=/user/photo/ HTTP/1.1
+Host	127.0.0.1
+Connection	keep-alive
+Content-Length	8608
+Cache-Control	max-age=0
+Accept	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Origin	http://127.0.0.1
+User-Agent	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22
+Content-Type	multipart/form-data; boundary=----WebKitFormBoundaryn3I5n8dAqjHZpMk8
+Referer	http://127.0.0.1/phpfox_new/index.php
+Accept-Encoding	gzip,deflate,sdch
+Accept-Language	en-US,en;q=0.8
+Accept-Charset	ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Cookie	PHPSESSID=1dfat5gajdo9jjdq5rsopnfm40; coreb9d8visit=1366467304; coreb9d8user_id=1; coreb9d8user_hash=42b5bc527e78dc9536878abe612e32b408b4babe244ebeda86; coreb9d8last_login=1366468528
+HTTP Response Headers
+X-Powered-By	PHP/5.3.5
+Keep-Alive	timeout=5, max=100
+Connection	Keep-Alive
+Transfer-Encoding	chunked
+Content-Type	text/html
+
+bcmath
+
+BCMath support	enabled
+
+Directive	Local Value	Master Value
+bcmath.scale	0	0
+
+bz2
+
+BZip2 Support	Enabled
+Stream Wrapper support	compress.bzip2://
+Stream Filter support	bzip2.decompress, bzip2.compress
+BZip2 Version	1.0.6, 6-Sept-2010
+
+calendar
+
+Calendar support	enabled
+
+com_dotnet
+
+COM support	enabled
+DCOM support	disabled
+.Net support	not present in this build
+
+Directive	Local Value	Master Value
+com.allow_dcom	0	0
+com.autoregister_casesensitive	1	1
+com.autoregister_typelib	0	0
+com.autoregister_verbose	0	0
+com.code_page	no value	no value
+com.typelib_file	no value	no value
+
+Core
+
+PHP Version	5.3.5
+
+Directive	Local Value	Master Value
+allow_call_time_pass_reference	Off	Off
+allow_url_fopen	On	On
+allow_url_include	Off	Off
+always_populate_raw_post_data	Off	Off
+arg_separator.input	&	&
+arg_separator.output	&	&
+asp_tags	Off	Off
+auto_append_file	no value	no value
+auto_globals_jit	On	On
+auto_prepend_file	no value	no value
+browscap	E:\xampp\php\extras\browscap.ini	E:\xampp\php\extras\browscap.ini
+default_charset	no value	no value
+default_mimetype	text/html	text/html
+define_syslog_variables	Off	Off
+disable_classes	no value	no value
+disable_functions	no value	no value
+display_errors	On	On
+display_startup_errors	On	On
+doc_root	no value	no value
+docref_ext	no value	no value
+docref_root	no value	no value
+enable_dl	On	On
+error_append_string	no value	no value
+error_log	/opt/lampp/logs/php_error_log	/opt/lampp/logs/php_error_log
+error_prepend_string	no value	no value
+error_reporting	32767	32767
+exit_on_timeout	Off	Off
+expose_php	On	On
+extension_dir	E:\xampp\php\ext	E:\xampp\php\ext
+file_uploads	On	On
+highlight.bg	#FFFFFF	#FFFFFF
+highlight.comment	#FF8000	#FF8000
+highlight.default	#0000BB	#0000BB
+highlight.html	#000000	#000000
+highlight.keyword	#007700	#007700
+highlight.string	#DD0000	#DD0000
+html_errors	On	On
+ignore_repeated_errors	Off	Off
+ignore_repeated_source	Off	Off
+ignore_user_abort	Off	Off
+implicit_flush	Off	Off
+include_path	.;E:\xampp\php\PEAR	.;E:\xampp\php\PEAR
+log_errors	On	On
+log_errors_max_len	1024	1024
+magic_quotes_gpc	Off	Off
+magic_quotes_runtime	Off	Off
+magic_quotes_sybase	Off	Off
+mail.add_x_header	Off	Off
+mail.force_extra_parameters	no value	no value
+mail.log	no value	no value
+max_execution_time	30	30
+max_file_uploads	20	20
+max_input_nesting_level	64	64
+max_input_time	60	60
+memory_limit	128M	128M
+open_basedir	no value	no value
+output_buffering	4096	4096
+output_handler	no value	no value
+post_max_size	8M	8M
+precision	14	14
+realpath_cache_size	16K	16K
+realpath_cache_ttl	120	120
+register_argc_argv	Off	Off
+register_globals	Off	Off
+register_long_arrays	Off	Off
+report_memleaks	On	On
+report_zend_debug	On	On
+request_order	GP	GP
+safe_mode	Off	Off
+safe_mode_exec_dir	no value	no value
+safe_mode_gid	Off	Off
+safe_mode_include_dir	no value	no value
+sendmail_from	postmaster@localhost	postmaster@localhost
+sendmail_path	"E:\xampp\sendmail\sendmail.exe" -t	"E:\xampp\sendmail\sendmail.exe" -t
+serialize_precision	100	100
+short_open_tag	On	On
+SMTP	localhost	localhost
+smtp_port	25	25
+sql.safe_mode	Off	Off
+track_errors	On	On
+unserialize_callback_func	no value	no value
+upload_max_filesize	128M	128M
+upload_tmp_dir	E:\xampp\tmp	E:\xampp\tmp
+user_dir	no value	no value
+user_ini.cache_ttl	300	300
+user_ini.filename	.user.ini	.user.ini
+variables_order	GPCS	GPCS
+xmlrpc_error_number	0	0
+xmlrpc_errors	Off	Off
+y2k_compliance	On	On
+zend.enable_gc	On	On
+
+ctype
+
+ctype functions	enabled
+
+date
+
+date/time support	enabled
+"Olson" Timezone Database Version	2010.15
+Timezone Database	internal
+Default timezone	Europe/Berlin
+
+Directive	Local Value	Master Value
+date.default_latitude	31.7667	31.7667
+date.default_longitude	35.2333	35.2333
+date.sunrise_zenith	90.583333	90.583333
+date.sunset_zenith	90.583333	90.583333
+date.timezone	Europe/Berlin	Europe/Berlin
+
+dom
+
+DOM/XML	enabled
+DOM/XML API Version	20031129
+libxml Version	2.7.7
+HTML Support	enabled
+XPath Support	enabled
+XPointer Support	enabled
+Schema Support	enabled
+RelaxNG Support	enabled
+
+ereg
+
+Regex Library	Bundled library enabled
+
+exif
+
+EXIF Support	enabled
+EXIF Version	1.4 $Id: exif.c 293036 2010-01-03 09:23:27Z sebastian $
+Supported EXIF Version	0220
+Supported filetypes	JPEG,TIFF
+
+Directive	Local Value	Master Value
+exif.decode_jis_intel	JIS	JIS
+exif.decode_jis_motorola	JIS	JIS
+exif.decode_unicode_intel	UCS-2LE	UCS-2LE
+exif.decode_unicode_motorola	UCS-2BE	UCS-2BE
+exif.encode_jis	no value	no value
+exif.encode_unicode	ISO-8859-15	ISO-8859-15
+
+filter
+
+Input Validation and Filtering	enabled
+Revision	$Revision: 298196 $
+
+Directive	Local Value	Master Value
+filter.default	unsafe_raw	unsafe_raw
+filter.default_flags	no value	no value
+
+ftp
+
+FTP support	enabled
+
+gd
+
+GD Support	enabled
+GD Version	bundled (2.0.34 compatible)
+FreeType Support	enabled
+FreeType Linkage	with freetype
+FreeType Version	2.4.3
+GIF Read Support	enabled
+GIF Create Support	enabled
+JPEG Support	enabled
+libJPEG Version	6b
+PNG Support	enabled
+libPNG Version	1.2.44
+WBMP Support	enabled
+XBM Support	enabled
+
+Directive	Local Value	Master Value
+gd.jpeg_ignore_warning	0	0
+
+gettext
+
+GetText Support	enabled
+
+hash
+
+hash support	enabled
+Hashing Engines	md2 md4 md5 sha1 sha224 sha256 sha384 sha512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost adler32 crc32 crc32b salsa10 salsa20 haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5
+
+iconv
+
+iconv support	enabled
+iconv implementation	"libiconv"
+iconv library version	1.11
+
+Directive	Local Value	Master Value
+iconv.input_encoding	ISO-8859-1	ISO-8859-1
+iconv.internal_encoding	ISO-8859-1	ISO-8859-1
+iconv.output_encoding	ISO-8859-1	ISO-8859-1
+
+imap
+
+IMAP c-Client Version	2007e
+SSL Support	enabled
+
+json
+
+json support	enabled
+json version	1.2.1
+
+libxml
+
+libXML support	active
+libXML Compiled Version	2.7.7
+libXML Loaded Version	20707
+libXML streams	enabled
+
+mbstring
+
+Multibyte Support	enabled
+Multibyte string engine	libmbfl
+HTTP input encoding translation	disabled
+
+mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+
+Multibyte (japanese) regex support	enabled
+Multibyte regex (oniguruma) version	4.7.1
+
+Directive	Local Value	Master Value
+mbstring.detect_order	no value	no value
+mbstring.encoding_translation	Off	Off
+mbstring.func_overload	0	0
+mbstring.http_input	pass	pass
+mbstring.http_output	pass	pass
+mbstring.http_output_conv_mimetypes	^(text/|application/xhtml\+xml)	^(text/|application/xhtml\+xml)
+mbstring.internal_encoding	no value	no value
+mbstring.language	neutral	neutral
+mbstring.strict_detection	Off	Off
+mbstring.substitute_character	no value	no value
+
+mcrypt
+
+mcrypt support	enabled
+mcrypt_filter support	enabled
+Version	2.5.8
+Api No	20021217
+Supported ciphers	cast-128 gost rijndael-128 twofish cast-256 loki97 rijndael-192 saferplus wake blowfish-compat des rijndael-256 serpent xtea blowfish enigma rc2 tripledes arcfour
+Supported modes	cbc cfb ctr ecb ncfb nofb ofb stream
+
+Directive	Local Value	Master Value
+mcrypt.algorithms_dir	no value	no value
+mcrypt.modes_dir	no value	no value
+
+mhash
+
+MHASH support	Enabled
+MHASH API Version	Emulated Support
+
+ming
+
+Ming SWF output library	enabled
+Version	0.4.3
+
+mysql
+
+MySQL Support	enabled
+Active Persistent Links	0
+Active Links	0
+Client API version	mysqlnd 5.0.7-dev - 091210 - $Revision: 304625 $
+
+Directive	Local Value	Master Value
+mysql.allow_local_infile	On	On
+mysql.allow_persistent	On	On
+mysql.connect_timeout	3	3
+mysql.default_host	no value	no value
+mysql.default_password	no value	no value
+mysql.default_port	3306	3306
+mysql.default_socket	MySQL	MySQL
+mysql.default_user	no value	no value
+mysql.max_links	Unlimited	Unlimited
+mysql.max_persistent	Unlimited	Unlimited
+mysql.trace_mode	Off	Off
+
+mysqli
+
+MysqlI Support	enabled
+Client API library version	mysqlnd 5.0.7-dev - 091210 - $Revision: 304625 $
+Active Persistent Links	0
+Inactive Persistent Links	0
+Active Links	0
+
+Directive	Local Value	Master Value
+mysqli.allow_local_infile	On	On
+mysqli.allow_persistent	On	On
+mysqli.default_host	no value	no value
+mysqli.default_port	3306	3306
+mysqli.default_pw	no value	no value
+mysqli.default_socket	MySQL	MySQL
+mysqli.default_user	no value	no value
+mysqli.max_links	Unlimited	Unlimited
+mysqli.max_persistent	Unlimited	Unlimited
+mysqli.reconnect	Off	Off
+
+mysqlnd
+
+mysqlnd	enabled
+Version	mysqlnd 5.0.7-dev - 091210 - $Revision: 304625 $
+Compression	supported
+SSL	not supported
+Command buffer size	4096
+Read buffer size	32768
+Read timeout	31536000
+Collecting statistics	Yes
+Collecting memory statistics	No
+Tracing	n/a
+
+Client statistics	
+bytes_sent	3926691
+bytes_received	23471481
+packets_sent	34574
+packets_received	224313
+protocol_overhead_in	897252
+protocol_overhead_out	138296
+bytes_received_ok_packet	13255
+bytes_received_eof_packet	124272
+bytes_received_rset_header_packet	129913
+bytes_received_rset_field_meta_packet	10475642
+bytes_received_rset_row_packet	12618307
+bytes_received_prepare_response_packet	0
+bytes_received_change_user_packet	0
+packets_sent_command	16710
+packets_received_ok	1205
+packets_received_eof	13808
+packets_received_rset_header	14945
+packets_received_rset_field_meta	127732
+packets_received_rset_row	66046
+packets_received_prepare_response	0
+packets_received_change_user	0
+result_set_queries	13248
+non_result_set_queries	1696
+no_index_used	1935
+bad_index_used	0
+slow_queries	0
+buffered_sets	13248
+unbuffered_sets	0
+ps_buffered_sets	0
+ps_unbuffered_sets	0
+flushed_normal_sets	0
+flushed_ps_sets	0
+ps_prepared_never_executed	0
+ps_prepared_once_executed	0
+rows_fetched_from_server_normal	52798
+rows_fetched_from_server_ps	0
+rows_buffered_from_client_normal	52798
+rows_buffered_from_client_ps	0
+rows_fetched_from_client_normal_buffered	49864
+rows_fetched_from_client_normal_unbuffered	0
+rows_fetched_from_client_ps_buffered	0
+rows_fetched_from_client_ps_unbuffered	0
+rows_fetched_from_client_ps_cursor	0
+rows_affected_normal	1439
+rows_affected_ps	0
+rows_skipped_normal	52798
+rows_skipped_ps	0
+copy_on_write_saved	133592
+copy_on_write_performed	203970
+command_buffer_too_small	4
+connect_success	577
+connect_failure	0
+connection_reused	0
+reconnect	0
+pconnect_success	17
+active_connections	0
+active_persistent_connections	0
+explicit_close	577
+implicit_close	0
+disconnect_close	0
+in_middle_of_command_close	0
+explicit_free_result	13248
+implicit_free_result	0
+explicit_stmt_close	0
+implicit_stmt_close	0
+mem_emalloc_count	0
+mem_emalloc_amount	0
+mem_ecalloc_count	0
+mem_ecalloc_amount	0
+mem_erealloc_count	0
+mem_erealloc_amount	0
+mem_efree_count	0
+mem_efree_amount	0
+mem_malloc_count	0
+mem_malloc_amount	0
+mem_calloc_count	0
+mem_calloc_amount	0
+mem_realloc_count	0
+mem_realloc_amount	0
+mem_free_count	0
+mem_free_amount	0
+mem_estrndup_count	0
+mem_strndup_count	0
+mem_estndup_count	0
+mem_strdup_count	0
+proto_text_fetched_null	0
+proto_text_fetched_bit	0
+proto_text_fetched_tinyint	40093
+proto_text_fetched_short	12249
+proto_text_fetched_int24	2812
+proto_text_fetched_int	54581
+proto_text_fetched_bigint	18453
+proto_text_fetched_decimal	343
+proto_text_fetched_float	0
+proto_text_fetched_double	0
+proto_text_fetched_date	0
+proto_text_fetched_year	0
+proto_text_fetched_time	0
+proto_text_fetched_datetime	3225
+proto_text_fetched_timestamp	0
+proto_text_fetched_string	124343
+proto_text_fetched_blob	47507
+proto_text_fetched_enum	0
+proto_text_fetched_set	0
+proto_text_fetched_geometry	0
+proto_text_fetched_other	0
+proto_binary_fetched_null	0
+proto_binary_fetched_bit	0
+proto_binary_fetched_tinyint	0
+proto_binary_fetched_short	0
+proto_binary_fetched_int24	0
+proto_binary_fetched_int	0
+proto_binary_fetched_bigint	0
+proto_binary_fetched_decimal	0
+proto_binary_fetched_float	0
+proto_binary_fetched_double	0
+proto_binary_fetched_date	0
+proto_binary_fetched_year	0
+proto_binary_fetched_time	0
+proto_binary_fetched_datetime	0
+proto_binary_fetched_timestamp	0
+proto_binary_fetched_string	0
+proto_binary_fetched_blob	0
+proto_binary_fetched_enum	0
+proto_binary_fetched_set	0
+proto_binary_fetched_geometry	0
+proto_binary_fetched_other	0
+init_command_executed_count	0
+init_command_failed_count	0
+com_quit	577
+com_init_db	628
+com_query	14945
+com_field_list	0
+com_create_db	0
+com_drop_db	0
+com_refresh	0
+com_shutdown	0
+com_statistics	0
+com_process_info	0
+com_connect	0
+com_process_kill	0
+com_debug	0
+com_ping	0
+com_time	0
+com_delayed_insert	0
+com_change_user	0
+com_binlog_dump	0
+com_table_dump	0
+com_connect_out	0
+com_register_slave	0
+com_stmt_prepare	0
+com_stmt_execute	0
+com_stmt_send_long_data	0
+com_stmt_close	0
+com_stmt_reset	0
+com_stmt_set_option	560
+com_stmt_fetch	0
+com_deamon	0
+bytes_received_real_data_normal	11945867
+bytes_received_real_data_ps	0
+
+odbc
+
+ODBC Support	enabled
+Active Persistent Links	0
+Active Links	0
+ODBC library	Win32
+
+Directive	Local Value	Master Value
+odbc.allow_persistent	On	On
+odbc.check_persistent	On	On
+odbc.default_cursortype	Static cursor	Static cursor
+odbc.default_db	no value	no value
+odbc.default_pw	no value	no value
+odbc.default_user	no value	no value
+odbc.defaultbinmode	return as is	return as is
+odbc.defaultlrl	return up to 4096 bytes	return up to 4096 bytes
+odbc.max_links	Unlimited	Unlimited
+odbc.max_persistent	Unlimited	Unlimited
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support	enabled
+PCRE Library Version	8.10 2010-06-25
+
+Directive	Local Value	Master Value
+pcre.backtrack_limit	100000	100000
+pcre.recursion_limit	100000	100000
+
+PDO
+
+PDO support	enabled
+PDO drivers	mysql, odbc, sqlite, sqlite2
+
+pdo_mysql
+
+PDO Driver for MySQL	enabled
+Client API version	mysqlnd 5.0.7-dev - 091210 - $Revision: 304625 $
+
+PDO_ODBC
+
+PDO Driver for ODBC (Win32)	enabled
+ODBC Connection Pooling	Enabled, strict matching
+
+pdo_sqlite
+
+PDO Driver for SQLite 3.x	enabled
+SQLite Library	3.7.3
+
+Phar
+
+Phar: PHP Archive support	enabled
+Phar EXT version	2.0.1
+Phar API version	1.1.1
+SVN revision	$Revision: 305584 $
+Phar-based phar archives	enabled
+Tar-based phar archives	enabled
+ZIP-based phar archives	enabled
+gzip compression	enabled
+bzip2 compression	enabled
+OpenSSL support	disabled (install ext/openssl)
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+
+Directive	Local Value	Master Value
+phar.cache_list	no value	no value
+phar.readonly	On	On
+phar.require_hash	On	On
+
+Reflection
+
+Reflection	enabled
+Version	$Revision: 305605 $
+
+session
+
+Session Support	enabled
+Registered save handlers	files user sqlite
+Registered serializer handlers	php php_binary wddx
+
+Directive	Local Value	Master Value
+session.auto_start	Off	Off
+session.bug_compat_42	On	On
+session.bug_compat_warn	On	On
+session.cache_expire	180	180
+session.cache_limiter	nocache	nocache
+session.cookie_domain	no value	no value
+session.cookie_httponly	Off	Off
+session.cookie_lifetime	0	0
+session.cookie_path	/	/
+session.cookie_secure	Off	Off
+session.entropy_file	no value	no value
+session.entropy_length	0	0
+session.gc_divisor	100	100
+session.gc_maxlifetime	1440	1440
+session.gc_probability	1	1
+session.hash_bits_per_character	5	5
+session.hash_function	0	0
+session.name	PHPSESSID	PHPSESSID
+session.referer_check	no value	no value
+session.save_handler	files	files
+session.save_path	E:\xampp\tmp	E:\xampp\tmp
+session.serialize_handler	php	php
+session.use_cookies	On	On
+session.use_only_cookies	Off	Off
+session.use_trans_sid	0	0
+
+SimpleXML
+
+Simplexml support	enabled
+Revision	$Revision: 302715 $
+Schema support	enabled
+
+soap
+
+Soap Client	enabled
+Soap Server	enabled
+
+Directive	Local Value	Master Value
+soap.wsdl_cache	1	1
+soap.wsdl_cache_dir	/tmp	/tmp
+soap.wsdl_cache_enabled	1	1
+soap.wsdl_cache_limit	5	5
+soap.wsdl_cache_ttl	86400	86400
+
+sockets
+
+Sockets Support	enabled
+
+SPL
+
+SPL support	enabled
+Interfaces	Countable, OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes	AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+SQLite
+
+SQLite support	enabled
+PECL Module version	2.0-dev $Id: sqlite.c 305507 2010-11-18 15:22:22Z pajoye $
+SQLite Library	2.8.17
+SQLite Encoding	iso8859
+
+Directive	Local Value	Master Value
+sqlite.assoc_case	0	0
+
+sqlite3
+
+SQLite3 support	enabled
+SQLite3 module version	0.7-dev
+SQLite Library	3.7.3
+
+Directive	Local Value	Master Value
+sqlite3.extension_dir	no value	no value
+
+standard
+
+Dynamic Library Support	enabled
+Path to sendmail	"E:\xampp\sendmail\sendmail.exe" -t
+
+Directive	Local Value	Master Value
+assert.active	1	1
+assert.bail	0	0
+assert.callback	no value	no value
+assert.quiet_eval	0	0
+assert.warning	1	1
+auto_detect_line_endings	0	0
+default_socket_timeout	60	60
+from	no value	no value
+safe_mode_allowed_env_vars	PHP_	PHP_
+safe_mode_protected_env_vars	LD_LIBRARY_PATH	LD_LIBRARY_PATH
+url_rewriter.tags	a=href,area=href,frame=src,input=src,form=,fieldset=	a=href,area=href,frame=src,input=src,form=,fieldset=
+user_agent	no value	no value
+
+tokenizer
+
+Tokenizer Support	enabled
+
+wddx
+
+WDDX Support	enabled
+WDDX Session Serializer	enabled
+
+xml
+
+XML Support	active
+XML Namespace Support	active
+libxml2 Version	2.7.7
+
+xmlreader
+
+XMLReader	enabled
+
+xmlrpc
+
+core library version	xmlrpc-epi v. 0.51
+php extension version	0.51
+author	Dan Libby
+homepage	http://xmlrpc-epi.sourceforge.net
+open sourced by	Epinions.com
+
+xmlwriter
+
+XMLWriter	enabled
+
+zip
+
+Zip	enabled
+Extension Version	$Id: php_zip.c 305848 2010-11-30 11:04:06Z pajoye $
+Zip version	1.9.1
+Libzip version	0.9.0
+
+zlib
+
+ZLib Support	enabled
+Stream Wrapper support	compress.zlib://
+Stream Filter support	zlib.inflate, zlib.deflate
+Compiled Version	1.2.3
+Linked Version	1.2.3
+
+Directive	Local Value	Master Value
+zlib.output_compression	Off	Off
+zlib.output_compression_level	-1	-1
+zlib.output_handler	no value	no value
+
+Additional Modules
+
+Module Name
+
+Environment
+
+Variable	Value
+no value	::=::\
+ALLUSERSPROFILE	C:\ProgramData
+APPDATA	C:\Users\admin\AppData\Roaming
+CommonProgramFiles	C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86)	C:\Program Files (x86)\Common Files
+CommonProgramW6432	C:\Program Files\Common Files
+COMPUTERNAME	ADMIN-PC
+ComSpec	C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK	NO
+HOMEDRIVE	C:
+HOMEPATH	\Users\admin
+LOCALAPPDATA	C:\Users\admin\AppData\Local
+LOGONSERVER	\\ADMIN-PC
+NUMBER_OF_PROCESSORS	4
+OS	Windows_NT
+PATH	C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+PATHEXT	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE	x86
+PROCESSOR_ARCHITEW6432	AMD64
+PROCESSOR_IDENTIFIER	Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL	6
+PROCESSOR_REVISION	3a09
+ProgramData	C:\ProgramData
+ProgramFiles	C:\Program Files (x86)
+ProgramFiles(x86)	C:\Program Files (x86)
+ProgramW6432	C:\Program Files
+PSModulePath	C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC	C:\Users\Public
+SESSIONNAME	Console
+SystemDrive	C:
+SystemRoot	C:\Windows
+TEMP	C:\Users\admin\AppData\Local\Temp
+TMP	C:\Users\admin\AppData\Local\Temp
+USERDOMAIN	admin-PC
+USERNAME	admin
+USERPROFILE	C:\Users\admin
+windir	C:\Windows
+windows_tracing_flags	3
+windows_tracing_logfile	C:\BVTBin\Tests\installpackage\csilogfile.log
+AP_PARENT_PID	5900
+
+PHP Variables
+
+Variable	Value
+_REQUEST["do"]	/user/photo/
+_REQUEST["core"]	
+Array
+(
+    [security_token] => 4357f688ce09b76cd08c513bc4e3269f
+)
+_REQUEST["val"]	
+Array
+(
+    [uploaded] => Upload Picture
+)
+_GET["do"]	/user/photo/
+_POST["core"]	
+Array
+(
+    [security_token] => 4357f688ce09b76cd08c513bc4e3269f
+)
+_POST["val"]	
+Array
+(
+    [uploaded] => Upload Picture
+)
+_FILES["image"]	
+Array
+(
+    [name] => 2.jpg
+    [type] => image/jpeg
+    [tmp_name] => E:\xampp\tmp\php15FD.tmp
+    [error] => 0
+    [size] => 8175
+)
+_COOKIE["PHPSESSID"]	1dfat5gajdo9jjdq5rsopnfm40
+_COOKIE["coreb9d8visit"]	1366467304
+_COOKIE["coreb9d8user_id"]	1
+_COOKIE["coreb9d8user_hash"]	42b5bc527e78dc9536878abe612e32b408b4babe244ebeda86
+_COOKIE["coreb9d8last_login"]	1366468528
+_SERVER["MIBDIRS"]	E:/xampp/php/extras/mibs
+_SERVER["MYSQL_HOME"]	\xampp\mysql\bin
+_SERVER["OPENSSL_CONF"]	E:/xampp/apache/bin/openssl.cnf
+_SERVER["PHP_PEAR_SYSCONF_DIR"]	\xampp\php
+_SERVER["PHPRC"]	\xampp\php
+_SERVER["TMP"]	\xampp\tmp
+_SERVER["HTTP_HOST"]	127.0.0.1
+_SERVER["HTTP_CONNECTION"]	keep-alive
+_SERVER["CONTENT_LENGTH"]	8608
+_SERVER["HTTP_CACHE_CONTROL"]	max-age=0
+_SERVER["HTTP_ACCEPT"]	text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+_SERVER["HTTP_ORIGIN"]	http://127.0.0.1
+_SERVER["HTTP_USER_AGENT"]	Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.97 Safari/537.22
+_SERVER["CONTENT_TYPE"]	multipart/form-data; boundary=----WebKitFormBoundaryn3I5n8dAqjHZpMk8
+_SERVER["HTTP_REFERER"]	http://127.0.0.1/phpfox_new/index.php
+_SERVER["HTTP_ACCEPT_ENCODING"]	gzip,deflate,sdch
+_SERVER["HTTP_ACCEPT_LANGUAGE"]	en-US,en;q=0.8
+_SERVER["HTTP_ACCEPT_CHARSET"]	ISO-8859-1,utf-8;q=0.7,*;q=0.3
+_SERVER["HTTP_COOKIE"]	PHPSESSID=1dfat5gajdo9jjdq5rsopnfm40; coreb9d8visit=1366467304; coreb9d8user_id=1; coreb9d8user_hash=42b5bc527e78dc9536878abe612e32b408b4babe244ebeda86; coreb9d8last_login=1366468528
+_SERVER["PATH"]	C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+_SERVER["SystemRoot"]	C:\Windows
+_SERVER["COMSPEC"]	C:\Windows\system32\cmd.exe
+_SERVER["PATHEXT"]	.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+_SERVER["WINDIR"]	C:\Windows
+_SERVER["SERVER_SIGNATURE"]	<address>Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8o PHP/5.3.4 mod_perl/2.0.4 Perl/v5.10.1 Server at 127.0.0.1 Port 80</address>
+_SERVER["SERVER_SOFTWARE"]	Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8o PHP/5.3.4 mod_perl/2.0.4 Perl/v5.10.1
+_SERVER["SERVER_NAME"]	127.0.0.1
+_SERVER["SERVER_ADDR"]	127.0.0.1
+_SERVER["SERVER_PORT"]	80
+_SERVER["REMOTE_ADDR"]	127.0.0.1
+_SERVER["DOCUMENT_ROOT"]	E:/work
+_SERVER["SERVER_ADMIN"]	postmaster@localhost
+_SERVER["SCRIPT_FILENAME"]	E:/work/phpfox_new/index.php
+_SERVER["REMOTE_PORT"]	54158
+_SERVER["GATEWAY_INTERFACE"]	CGI/1.1
+_SERVER["SERVER_PROTOCOL"]	HTTP/1.1
+_SERVER["REQUEST_METHOD"]	POST
+_SERVER["QUERY_STRING"]	do=/user/photo/
+_SERVER["REQUEST_URI"]	/phpfox_new/index.php?do=/user/photo/
+_SERVER["SCRIPT_NAME"]	/phpfox_new/index.php
+_SERVER["PHP_SELF"]	/phpfox_new/index.php
+_SERVER["REQUEST_TIME"]	1366469271
+
+PHP License
+
+This program is free software; you can redistribute it and/or modify it under the terms of the PHP License as published by the PHP Group and included in the distribution in the file: LICENSE
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+If you did not receive a copy of the PHP license, or have any questions about PHP licensing, please contact license@php.net.
+
